@@ -14,7 +14,7 @@ public class App {
 		
 		logger.writeConsole("Hello there");
 		logger.writeFile("Hi again");
-		
+		logger.writeFile("Hi againzz");
 		((ClassPathXmlApplicationContext)context).close();
 	}
 
