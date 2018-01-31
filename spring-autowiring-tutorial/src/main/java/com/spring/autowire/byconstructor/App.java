@@ -9,7 +9,7 @@ public class App {
 	public static void main(String[] args) {
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/spring/autowire/byconstructor/beans/beans.xml");
-		
+		//some changes
 		Logger logger = (Logger)context.getBean("logger");
 		
 		logger.writeConsole("Hello there");
