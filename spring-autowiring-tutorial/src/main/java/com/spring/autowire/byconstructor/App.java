@@ -10,6 +10,7 @@ public class App {
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/spring/autowire/byconstructor/beans/beans.xml");
 		//some changes
+		//again chnges
 		Logger logger = (Logger)context.getBean("logger");
 		
 		logger.writeConsole("Hello there");
